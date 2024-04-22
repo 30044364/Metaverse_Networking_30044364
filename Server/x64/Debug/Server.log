@@ -1,0 +1,3 @@
+﻿  server_main.cpp
+C:\Users\30044364\Documents\Github Repo\demo\Server\Source\server_main.cpp(86,57): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Server.vcxproj -> C:\Users\30044364\Documents\Github Repo\demo\x64\Debug\Server.exe

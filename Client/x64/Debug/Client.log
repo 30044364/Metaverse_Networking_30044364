@@ -1,0 +1,4 @@
+﻿  client_main.cpp
+C:\Users\30044364\Documents\Github Repo\demo\Client\Source\client_main.cpp(55,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  LINK : C:\Users\30044364\Documents\Github Repo\demo\x64\Debug\Client.exe not found or not built by the last incremental link; performing full link
+  Client.vcxproj -> C:\Users\30044364\Documents\Github Repo\demo\x64\Debug\Client.exe
