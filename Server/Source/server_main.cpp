@@ -2,8 +2,12 @@
 #include <WS2tcpip.h>
 #include <string>
 
+#include "../Game/match_game.h"
+
 #pragma comment(lib, "ws2_32.lib") // Link with ws2_32.lib
 
+
+#if(false)
 int main() {
     // Initialize Winsock
     WSADATA wsData;
@@ -97,3 +101,13 @@ int main() {
 
     return 0;
 }
+
+#else
+
+/******************************************************************************************************************************/// Testing
+int main(void) {
+    play_game();
+    play_again();
+    return 0;
+}
+#endif
