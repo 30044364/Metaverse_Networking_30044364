@@ -9,7 +9,5 @@
 
 // Prototype
 int get_index(char row_char, char col_char);
-void print_board(std::string board[NUM_ROWS][NUM_COLS], int selected1, int selected2);
-void print_rules(void);
-void play_game(void);
-void play_again(void);
+std::string get_board(std::string board[NUM_ROWS][NUM_COLS], int selected1, int selected2);
+std::string get_rules(void);

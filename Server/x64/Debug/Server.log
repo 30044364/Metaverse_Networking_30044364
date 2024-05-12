@@ -1,5 +1,12 @@
-﻿  match_game.cpp
-C:\Users\30044364\Documents\GitRepo\demo\Server\Game\match_game.cpp(80,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  server_main.cpp
-  Generating Code...
-  Server.vcxproj -> C:\Users\30044364\Documents\GitRepo\demo\x64\Debug\Server.exe
+﻿  server_main.cpp
+C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(72,53): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(84,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(179,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(191,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(197,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(208,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(213,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(222,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(228,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(236,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Server.vcxproj -> C:\Users\brian\Desktop\Metaverse\demo\x64\Debug\Server.exe

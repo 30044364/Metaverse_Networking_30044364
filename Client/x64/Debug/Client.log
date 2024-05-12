@@ -1,4 +1,6 @@
 ﻿  client_main.cpp
-C:\Users\30044364\Documents\Github Repo\demo\Client\Source\client_main.cpp(55,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  LINK : C:\Users\30044364\Documents\Github Repo\demo\x64\Debug\Client.exe not found or not built by the last incremental link; performing full link
-  Client.vcxproj -> C:\Users\30044364\Documents\Github Repo\demo\x64\Debug\Client.exe
+C:\Users\brian\Desktop\Metaverse\demo\Client\Source\client_main.cpp(65,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\brian\Desktop\Metaverse\demo\Client\Source\client_main.cpp(91,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\brian\Desktop\Metaverse\demo\Client\Source\client_main.cpp(97,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\brian\Desktop\Metaverse\demo\Client\Source\client_main.cpp(104,51): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Client.vcxproj -> C:\Users\brian\Desktop\Metaverse\demo\x64\Debug\Client.exe
