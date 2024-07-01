@@ -217,6 +217,9 @@ int main(void) {
             std::string card1 = board[index1 / NUM_COLS][index1 % NUM_COLS];
             std::string card2 = board[index2 / NUM_COLS][index2 % NUM_COLS];
 
+            selected1 = index1;
+            selected2 = index2;
+
             if (card1 == "x" || card2 == "x") {
                 gameReply = "You have already matched one of these cards. Please select a different card.\n" + get_board(board, selected1, selected2);
                 send(clientSocket, (gameReply.c_str()), strlen(gameReply.c_str()), 0);
@@ -224,12 +227,12 @@ int main(void) {
             }
 
             if (card1 == card2) {
-                gameReply = "Congratulations! You have matched a pair.\n" + get_board(board, selected1, selected2);
-                send(clientSocket, (gameReply.c_str()), strlen(gameReply.c_str()), 0);
-
                 board[index1 / NUM_COLS][index1 % NUM_COLS] = 'x';
                 board[index2 / NUM_COLS][index2 % NUM_COLS] = 'x';
                 matched_pairs++;
+
+                gameReply = "Congratulations! You have matched a pair.\n" + get_board(board, selected1, selected2);
+                send(clientSocket, (gameReply.c_str()), strlen(gameReply.c_str()), 0);
             }
             else {
                 gameReply = "Sorry, the selected cards do not match.\n" + get_board(board, selected1, selected2);

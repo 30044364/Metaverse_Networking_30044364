@@ -76,8 +76,6 @@ int main(void) {
         std::cout << "Server: " << buffer << std::endl;
 
 
-
-
         // Sending message to sevrer
         std::string message;
         if (!message.empty())

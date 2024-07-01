@@ -6,7 +6,7 @@ C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(191,63): war
 C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(197,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(208,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(213,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(222,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(228,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(236,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(227,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(237,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\brian\Desktop\Metaverse\demo\Server\Source\server_main.cpp(241,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   Server.vcxproj -> C:\Users\brian\Desktop\Metaverse\demo\x64\Debug\Server.exe
